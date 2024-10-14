@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="http://localhost:4000/upload" method="POST" enctype="multipart/form-data">
+        <label for="product">Choose an image to upload:</label>
+        <input type="file" name="product" id="product" accept="image/*" required />
+        <button type="submit">Upload Image</button>
+    </form>
+</body>
+</html>
